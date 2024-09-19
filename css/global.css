@@ -14,7 +14,7 @@ header {
     padding: 20px;
     text-align: center;
     background-color: transparent;
-    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7);
+    text-shadow: 4px 4px 4px rgba(255, 255, 255, 0.7);
 }
 
 header h1 {
@@ -34,6 +34,7 @@ nav {
     justify-content: left;
     background-color: #2d3bffa1;
     padding: 15px;
+    box-shadow: 0px 10px 25px black;
 }
 
 nav button {
@@ -41,8 +42,9 @@ nav button {
     border: none;
     padding: 10px 20px;
     margin: 0 10px;
-    font-size: 16px;
+    font-size: 20px;
     color: white;
+    text-overflow: clip;
     cursor: pointer;
     text-transform: uppercase;
     transition: background-color 0.7s;
@@ -53,9 +55,16 @@ nav button:hover {
     background-color: #7E83F7;
 }
 
+nav button:active {
+    background-color: #a7a9e4;
+    scale: 1.1;
+    transition: 0.3s;
+}
+
 footer {
     background-color: transparent;
     color: white;
+    text-shadow: 2px 2px 2px black;
     padding: 20px;
     font-size: 1em;
 }

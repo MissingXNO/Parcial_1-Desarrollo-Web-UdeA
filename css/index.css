@@ -36,26 +36,31 @@
 .container div p {
     margin-bottom: 50px;
     text-align: right;
+    font-size: 2vh;
 }
 
 .container div#html {
     background-color: rgba(204, 0, 255, 0.5);
-    box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.7);
+    box-shadow: -4px -4px 8px rgba(255, 255, 255, 0.7);
+    border-bottom: 5px solid rgb(255, 0, 255);
 }
 
 .container div#dns {
     background-color: rgba(255, 255, 255, 0.5);
-    box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.7);
+    box-shadow: -4px -4px 8px rgba(255, 255, 255, 0.7);
+    border-bottom: 5px solid red;
 }
 
 .container div#css {
     background-color: rgba(44, 188, 255, 0.5);
-    box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.7);
+    box-shadow: -4px -4px 8px rgba(255, 255, 255, 0.7);
+    border-bottom: 5px solid rgb(0, 100, 255);
 }
 
 .container div#tcpip {
     background-color: rgba(173, 0, 72, 0.5);
-    box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.7);
+    box-shadow: -4px -4px 8px rgba(255, 255, 255, 0.7);
+    border-bottom: 5px solid rgb(0, 255, 255);
 }
 
 .logo {
