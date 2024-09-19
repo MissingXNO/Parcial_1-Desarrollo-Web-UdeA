@@ -2,7 +2,11 @@
 
 Repositorio creado para el parcial 1 del curso de desarrollo de aplicaciones web.
 
-En la rama "ordenado_carpetas" se encuentran los archivos separados por carpetas. Se recomienda descargar el proyecto de allí. La rama main, con los archivos sin ubicarse dentro de una carpeta, se dejan como evidencia de los múltiples commits realizados a cada archivo, aunque es evidentemente menos ordenado
+consideraciones:
+  * Descargar el proyecto de la rama principal.
+  * En caso de descargarse de la rama "ordenado carpetas", no debería haber problema.
+  * La pagina de inicio corresponde al archivo index.html. sub-pagina de HTML corresponde a impar_html.html y sub-pagina de CSS corresponde a impar_css.html.
+  * se tomaron libertades creativas mínimas.
 
 Santiago Giraldo Tabares
 
