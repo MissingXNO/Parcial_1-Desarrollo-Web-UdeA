@@ -6,7 +6,11 @@ En la rama "ordenado_carpetas" se encuentran los archivos separados por carpetas
 
 Santiago Giraldo Tabares
 
-Departamento de Electrónica
-Facultad de Ingeniería
-Universidad de Antioquia
-Semestre 2024-2
+Departamento de Electrónica.
+
+Facultad de Ingeniería.
+
+Universidad de Antioquia.
+
+Semestre 2024-2.
+
