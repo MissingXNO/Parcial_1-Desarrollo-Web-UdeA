@@ -1,56 +1,3 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background: url("/images/bg.jpg") no-repeat center center fixed;
-    background-size: cover;
-    color: white;
-    text-align: center;
-}
-
-header {
-    padding: 20px;
-    text-align: center;
-    background-color: transparent;
-    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7);
-}
-
-header h1 {
-    font-size: 2.5em;
-    font-weight: bold;
-}
-
-header h2 {
-    font-size: 1.5em;
-    margin-top: 5px;
-    color: rgb(255, 137, 137);
-    text-shadow: 2px 2px 4px rgba(165, 0, 0, 0.7);
-}
-
-nav {
-    display: flex;
-    justify-content: left;
-    background-color: #2d3bffa1;
-    padding: 15px;
-}
-
-nav button {
-    background-color: #ffffff00;
-    border: none;
-    padding: 10px 20px;
-    margin: 0 10px;
-    font-size: 16px;
-    color: white;
-    cursor: pointer;
-    text-transform: uppercase;
-    transition: background-color 0.7s;
-    border-radius: 10px;
-}
-
-nav button:hover {
-    background-color: #7E83F7;
-}
-
 .container {
     gap: 20px;
     margin: 50px;
@@ -62,10 +9,11 @@ nav button:hover {
 .container div {
     position: relative; 
     background-color: rgba(204, 0, 255, 0.5);
-    box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.7);
+    box-shadow: -4px -4px 8px rgba(255, 255, 255, 0.7);
     width: 100%; 
     padding: 1em;
     box-sizing: border-box; 
+    border-bottom: 5px solid rgb(255, 0, 255);
 }
 
 .container div h3 {
@@ -74,11 +22,13 @@ nav button:hover {
     font-size: 1.5em;
     margin-bottom: 10px;
     text-shadow: 1px 1px 3px black;
+    font-size: 3vh;
 }
 
 .container div p {
     margin-bottom: 50px; 
     text-align: right; 
+    font-size: 2.5vh;
 }
 
 .logo {
@@ -87,11 +37,4 @@ nav button:hover {
     left: 10px; 
     width: 50px;  
     height: auto; 
-}
-
-footer {
-    background-color: transparent;
-    color: white;
-    padding: 20px;
-    font-size: 1em;
 }
