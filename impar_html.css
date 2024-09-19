@@ -27,7 +27,7 @@ header h2 {
 
 nav {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     background-color: #2d3bffa1;
     padding: 15px;
 }
@@ -48,12 +48,13 @@ nav button:hover {
 }
 
 .container {
-    display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto;
     gap: 20px;
     padding: 50px;
     text-align: left;
+    display: flex;
+    justify-content: center;
 }
 
 .container div {
